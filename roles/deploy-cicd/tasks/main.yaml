@@ -1,6 +1,6 @@
 ---
 # Download a WAR File to the Tomcat webapps directory to be deployed
-- name: Download a WAR File to the Tomcat webapps directory to be deployed
+- name: Download a JAR File to the Tomcat webapps directory to be deployed
   maven_artifact:
     group_id: ivas.in2
     artifact_id: myappsivas
